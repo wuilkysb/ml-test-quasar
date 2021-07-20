@@ -1,0 +1,60 @@
+definitions:
+  dtos.Response:
+    properties:
+      message:
+        type: string
+      position:
+        $ref: '#/definitions/utils.Point'
+    type: object
+  dtos.Satellites:
+    properties:
+      distance:
+        type: number
+      message:
+        items:
+          type: string
+        type: array
+      name:
+        type: string
+    required:
+    - distance
+    - message
+    - name
+    type: object
+  utils.Point:
+    properties:
+      r:
+        type: number
+      x:
+        type: number
+      "y":
+        type: number
+    type: object
+info:
+  contact: {}
+paths:
+  /satellite/topsecret/:
+    post:
+      consumes:
+      - application/json
+      description: satellite top secret
+      parameters:
+      - description: Request body
+        in: body
+        name: request
+        required: true
+        schema:
+          items:
+            $ref: '#/definitions/dtos.Satellites'
+          type: array
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/dtos.Response'
+      summary: satellite get top secret message
+      tags:
+      - Satellite Manager
+swagger: "2.0"
