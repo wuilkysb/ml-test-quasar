@@ -1,9 +1,9 @@
 package router
 
 import (
-	_ "ml-mutant-test/docs"
-	"ml-mutant-test/enums"
-	"ml-mutant-test/interfaces/controller"
+	_ "ml-test-quasar/docs"
+	"ml-test-quasar/enums"
+	"ml-test-quasar/interfaces/controller"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

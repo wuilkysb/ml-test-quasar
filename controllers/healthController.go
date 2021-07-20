@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"github.com/labstack/echo/v4"
 	"net/http"
 	"net/http/httptest"
+
+	"github.com/labstack/echo/v4"
 )
 
 type Health struct {

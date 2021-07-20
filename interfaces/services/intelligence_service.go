@@ -1,8 +1,8 @@
 package services
 
 import (
-	"ml-mutant-test/dtos"
-	"ml-mutant-test/utils"
+	"ml-test-quasar/dtos"
+	"ml-test-quasar/utils"
 )
 
 type IntelligenceServiceInterface interface {

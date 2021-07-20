@@ -1,4 +1,4 @@
-module ml-mutant-test
+module ml-test-quasar
 
 // +heroku goVersion go1.15
 go 1.15

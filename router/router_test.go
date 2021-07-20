@@ -3,7 +3,7 @@ package router
 import (
 	"testing"
 
-	"ml-mutant-test/mocks"
+	"ml-test-quasar/mocks"
 
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/suite"

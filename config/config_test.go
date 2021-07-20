@@ -1,10 +1,11 @@
 package config
 
 import (
-	"github.com/stretchr/testify/assert"
 	"os"
 	"sync"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestEnvironments_WhenAllVarsAreSet(t *testing.T) {

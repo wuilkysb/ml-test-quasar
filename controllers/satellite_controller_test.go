@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"testing"
 
-	"ml-mutant-test/dtos"
-	"ml-mutant-test/interfaces/controller"
-	"ml-mutant-test/mocks"
-	"ml-mutant-test/utils"
+	"ml-test-quasar/dtos"
+	"ml-test-quasar/interfaces/controller"
+	"ml-test-quasar/mocks"
+	"ml-test-quasar/utils"
 
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/suite"

@@ -3,9 +3,9 @@ package controllers
 import (
 	"net/http"
 
-	"ml-mutant-test/dtos"
-	"ml-mutant-test/interfaces/controller"
-	"ml-mutant-test/interfaces/services"
+	"ml-test-quasar/dtos"
+	"ml-test-quasar/interfaces/controller"
+	"ml-test-quasar/interfaces/services"
 
 	"github.com/labstack/echo/v4"
 )

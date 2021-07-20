@@ -2,9 +2,10 @@ package server
 
 import (
 	"fmt"
+	"testing"
+
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
-	"testing"
 )
 
 func TestNewServer_WhenServerIsNotNilAndSameType(t *testing.T) {

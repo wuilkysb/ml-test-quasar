@@ -1,10 +1,10 @@
 package services
 
 import (
-	"ml-mutant-test/config"
-	"ml-mutant-test/dtos"
-	"ml-mutant-test/interfaces/services"
-	"ml-mutant-test/utils"
+	"ml-test-quasar/config"
+	"ml-test-quasar/dtos"
+	"ml-test-quasar/interfaces/services"
+	"ml-test-quasar/utils"
 )
 
 type IntelligenceService struct {

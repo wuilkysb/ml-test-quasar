@@ -1,10 +1,10 @@
 package providers
 
 import (
-	"ml-mutant-test/controllers"
-	"ml-mutant-test/router"
-	"ml-mutant-test/server"
-	"ml-mutant-test/services"
+	"ml-test-quasar/controllers"
+	"ml-test-quasar/router"
+	"ml-test-quasar/server"
+	"ml-test-quasar/services"
 
 	"go.uber.org/dig"
 )

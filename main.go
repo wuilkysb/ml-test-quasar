@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"ml-mutant-test/config"
-	"ml-mutant-test/providers"
-	"ml-mutant-test/router"
+	"ml-test-quasar/config"
+	"ml-test-quasar/providers"
+	"ml-test-quasar/router"
 
 	"github.com/labstack/echo/v4"
 	"github.com/signalfx/signalfx-go-tracing/tracing"

@@ -1,6 +1,6 @@
 package dtos
 
-import "ml-mutant-test/utils"
+import "ml-test-quasar/utils"
 
 type Response struct {
 	Message  string      `json:"message"`

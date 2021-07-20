@@ -2,14 +2,16 @@ package controllers
 
 import (
 	"fmt"
-	"github.com/labstack/echo/v4"
-	"github.com/stretchr/testify/assert"
 	"io"
-	"ml-mutant-test/enums"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+
+	"ml-test-quasar/enums"
+
+	"github.com/labstack/echo/v4"
+	"github.com/stretchr/testify/assert"
 )
 
 var healthJson = `{"status":200,"message":"Active!"}`

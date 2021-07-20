@@ -1,6 +1,6 @@
 package config
 
-import "ml-mutant-test/utils"
+import "ml-test-quasar/utils"
 
 var (
 	Kenobi = utils.Point{
