@@ -8,7 +8,7 @@ $ git clone git@github.com:wuilkysb/ml-test-quasar.git $GOPATH/ml-test && cd $_
 ##  Overview
 API to decode an imperial message and position
 
-![Screenshot](https://github.com/wuilkydb/ml-test-quasar/blob/master/readme_resource/packages.png?raw=true)
+![Screenshot](https://github.com/wuilkysb/ml-test-quasar/blob/master/readme_resource/packages.png?raw=true)
 
 * router: entry points
 * controllers: entry points between user requests and business logic
