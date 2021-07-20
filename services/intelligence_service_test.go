@@ -3,9 +3,9 @@ package services
 import (
 	"testing"
 
-	"ml-mutant-test/dtos"
-	"ml-mutant-test/interfaces/services"
-	"ml-mutant-test/utils"
+	"ml-test-quasar/dtos"
+	"ml-test-quasar/interfaces/services"
+	"ml-test-quasar/utils"
 
 	"github.com/stretchr/testify/suite"
 )
@@ -32,23 +32,23 @@ var (
 
 type IntelligenceServiceTestSuite struct {
 	suite.Suite
-	underTest   services.IntelligenceServiceInterface
+	underTest services.IntelligenceServiceInterface
 }
 
 func TestIntelligenceServiceSuite(t *testing.T) {
 	suite.Run(t, new(IntelligenceServiceTestSuite))
 }
 
-func(suite *IntelligenceServiceTestSuite) SetupTest() {
+func (suite *IntelligenceServiceTestSuite) SetupTest() {
 	suite.underTest = NewIntelligenceService()
 }
 
-func(suite *IntelligenceServiceTestSuite) TestGetLocation() {
+func (suite *IntelligenceServiceTestSuite) TestGetLocation() {
 	location, _ := suite.underTest.GetLocation(satellites)
 	suite.IsType(utils.Point{}, location)
 }
 
-func(suite *IntelligenceServiceTestSuite) TestGetMessage() {
+func (suite *IntelligenceServiceTestSuite) TestGetMessage() {
 	message := suite.underTest.GetMessage(satellites)
 	suite.IsType("es un mensaje", message)
 }

@@ -1,3 +1,5 @@
+// this solution is based on the answer of the following link
+// https://stackoverflow.com/a/9754358
 package utils
 
 import "math"
