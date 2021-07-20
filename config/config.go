@@ -8,7 +8,7 @@ import (
 )
 
 type Config struct {
-	ServerPort        string        `required:"true" split_words:"true"`
+	Port string `required:"true" split_words:"true"`
 }
 
 var once sync.Once

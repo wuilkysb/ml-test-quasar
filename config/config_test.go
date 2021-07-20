@@ -9,7 +9,7 @@ import (
 
 func TestEnvironments_WhenAllVarsAreSet(t *testing.T) {
 	Environments()
-	assert.Equal(t, "8080", C.ServerPort)
+	assert.Equal(t, "8080", C.Port)
 }
 
 func TestEnvironments_WhenSomeVarIsMissed(t *testing.T) {
